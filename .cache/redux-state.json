@@ -1,0 +1,1442 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d8f8bd12ee179aa1a006b7a848507a9c",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "209306489b4623178e451143361cd172",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "07065a857a1d000dd08057951c07f042",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "813957aaf3b2a82ed70301e04dc15a9f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "93faaec6744dc816a945926052e6be20",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "40afc6c7def4d2e3a91db793f0074a62",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "93f5edeb1b69329d6ca8a47d2251e0e9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8a8b8192b951e2feeed5a7dd040cdce0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4fd13c54d35d23644ee237fba651cf36",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.54",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "eaougker493o",
+        "accessToken": "828877e84c33aea46888ad00efe6a584c0b5ff0417f0d509585cd586841d00e7"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreBootstrap",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.54",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": "Marcus Ericsson <mericsson@gmail.com> (mericsson.com)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0b20a143ddf6d9de22c8097400237444",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "d252352e77c46fb300365df4709a8b64",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog",
+      "packageJson": {
+        "name": "contentful-starter-gatsby-blog",
+        "description": "Contentful Gatsby Starter Blog",
+        "version": "0.0.1",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "contentful",
+          "starter"
+        ],
+        "author": "Contentful <opensource@contentful.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.55"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.54"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e23380bbec3459cbb720be046e27c0e5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b27e452aa2f1dd35072a1096020778df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "/gatsby-contentful-starter",
+      "polyfill": true,
+      "buildTime": "2019-01-11T03:16:11.515Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4c202a1ea6e9b2dd42485afe3a2bfa7b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Person": {
+      "id": "Person",
+      "parent": null,
+      "children": [],
+      "name": "Person",
+      "displayField": "name",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "0188c2cbd1eb9629293885e793be1aad",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c15jwOBqpxqSAOy2eOO4S0m": {
+      "name": "John Doe",
+      "title": "Web Developer",
+      "company": "ACME",
+      "email": "john@doe.com",
+      "phone": "0176 / 1234567",
+      "facebook": "johndoe",
+      "twitter": "johndoe",
+      "github": "johndoe",
+      "image___NODE": "c7orLdboQQowIUs22KAW4U",
+      "blog post___NODE": [
+        "c31TNnjHlfaGUoMOwU0M2og",
+        "c3K9b0esdy0q0yGqgW2g6Ke",
+        "c2PtC9h1YqIA6kaUaIsWEQ0"
+      ],
+      "shortBio___NODE": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
+      "id": "c15jwOBqpxqSAOy2eOO4S0m",
+      "contentful_id": "15jwOBqpxqSAOy2eOO4S0m",
+      "createdAt": "2019-01-11T02:36:00.866Z",
+      "updatedAt": "2019-01-11T02:36:00.866Z",
+      "parent": "Person",
+      "children": [
+        "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulPerson",
+        "contentDigest": "d283d82a43bf1afff2398b9f44a7139b",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode": {
+      "id": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
+      "parent": "c15jwOBqpxqSAOy2eOO4S0m",
+      "children": [
+        "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode >>> MarkdownRemark"
+      ],
+      "shortBio": "Research and recommendations for modern stack websites.",
+      "internal": {
+        "type": "contentfulPersonShortBioTextNode",
+        "mediaType": "text/markdown",
+        "content": "Research and recommendations for modern stack websites.",
+        "contentDigest": "3279e2d11a6e85e2a01ff0b249351bb7",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "Blog Post": {
+      "id": "Blog Post",
+      "parent": null,
+      "children": [],
+      "name": "Blog Post",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "f9d3fe517ab1ddba3343c0c3a951b33d",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c31TNnjHlfaGUoMOwU0M2og": {
+      "title": "Automate with webhooks",
+      "slug": "automate-with-webhooks",
+      "publishDate": "2017-05-12T00:00+02:00",
+      "tags": [
+        "javascript"
+      ],
+      "heroImage___NODE": "c4shwYI3POEGkw0Eg6kcyaQ",
+      "author___NODE": "c15jwOBqpxqSAOy2eOO4S0m",
+      "description___NODE": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
+      "body___NODE": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode",
+      "id": "c31TNnjHlfaGUoMOwU0M2og",
+      "contentful_id": "31TNnjHlfaGUoMOwU0M2og",
+      "createdAt": "2019-01-11T02:36:04.378Z",
+      "updatedAt": "2019-01-11T02:36:04.378Z",
+      "parent": "Blog Post",
+      "children": [
+        "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
+        "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "b727d0834469324cf9638bd1fd5c861b",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c3K9b0esdy0q0yGqgW2g6Ke": {
+      "title": "Hello world",
+      "slug": "hello-world",
+      "publishDate": "2017-05-15T00:00+02:00",
+      "tags": [
+        "general"
+      ],
+      "heroImage___NODE": "c6Od9v3wzLOysiMum0Wkmme",
+      "author___NODE": "c15jwOBqpxqSAOy2eOO4S0m",
+      "description___NODE": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
+      "body___NODE": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode",
+      "id": "c3K9b0esdy0q0yGqgW2g6Ke",
+      "contentful_id": "3K9b0esdy0q0yGqgW2g6Ke",
+      "createdAt": "2019-01-11T02:36:03.080Z",
+      "updatedAt": "2019-01-11T02:36:03.080Z",
+      "parent": "Blog Post",
+      "children": [
+        "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
+        "c3K9b0esdy0q0yGqgW2g6KebodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "a080710af1e1c14ab3511d850787ed47",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c2PtC9h1YqIA6kaUaIsWEQ0": {
+      "title": "Static sites are great",
+      "slug": "static-sites-are-great",
+      "publishDate": "2017-05-16T00:00+02:00",
+      "tags": [
+        "javascript",
+        "static-sites"
+      ],
+      "heroImage___NODE": "c4NzwDSDlGECGIiokKomsyI",
+      "author___NODE": "c15jwOBqpxqSAOy2eOO4S0m",
+      "description___NODE": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
+      "body___NODE": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode",
+      "id": "c2PtC9h1YqIA6kaUaIsWEQ0",
+      "contentful_id": "2PtC9h1YqIA6kaUaIsWEQ0",
+      "createdAt": "2019-01-11T02:36:01.931Z",
+      "updatedAt": "2019-01-11T02:36:01.931Z",
+      "parent": "Blog Post",
+      "children": [
+        "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
+        "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "c6528fa62a0005506cc100d65247e200",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode": {
+      "id": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
+      "parent": "c31TNnjHlfaGUoMOwU0M2og",
+      "children": [
+        "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+        "contentDigest": "768e509a535e5bcf9083639c026c33cf",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode": {
+      "id": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode",
+      "parent": "c31TNnjHlfaGUoMOwU0M2og",
+      "children": [
+        "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+        "contentDigest": "07d46590bdab14165dd60a611c88961c",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode": {
+      "id": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
+      "parent": "c3K9b0esdy0q0yGqgW2g6Ke",
+      "children": [
+        "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+        "contentDigest": "44cf14ea57502eaf5f192be763c4fe13",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3K9b0esdy0q0yGqgW2g6KebodyTextNode": {
+      "id": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode",
+      "parent": "c3K9b0esdy0q0yGqgW2g6Ke",
+      "children": [
+        "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+        "contentDigest": "0bff58a87378831620af304825a698ad",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode": {
+      "id": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
+      "parent": "c2PtC9h1YqIA6kaUaIsWEQ0",
+      "children": [
+        "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+        "contentDigest": "2ad30aa8931b94956ad74e36da0479d3",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode": {
+      "id": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode",
+      "parent": "c2PtC9h1YqIA6kaUaIsWEQ0",
+      "children": [
+        "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\").",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\").",
+        "contentDigest": "68b10dabecefdf24b2eef3afa2a01240",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6Od9v3wzLOysiMum0Wkmme": {
+      "id": "c6Od9v3wzLOysiMum0Wkmme",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/eaougker493o/6Od9v3wzLOysiMum0Wkmme/fb6bbb62a74d3c239f9b0574ad340b8f/cameron-kirby-88711.jpg",
+        "details": {
+          "size": 7316629,
+          "image": {
+            "width": 3000,
+            "height": 2000
+          }
+        },
+        "fileName": "cameron-kirby-88711.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Woman with black hat",
+      "description": "Woman wearing a black hat",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "db840ec7a561b4469894f96f517c4d79",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4NzwDSDlGECGIiokKomsyI": {
+      "id": "c4NzwDSDlGECGIiokKomsyI",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/eaougker493o/4NzwDSDlGECGIiokKomsyI/9ca47a8247d9ce3e677888b9926a27c1/denys-nevozhai-100695.jpg",
+        "details": {
+          "size": 15736986,
+          "image": {
+            "width": 3992,
+            "height": 2992
+          }
+        },
+        "fileName": "denys-nevozhai-100695.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "City",
+      "description": "City pictured from the sky",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "79a8f1a290845a3b6c56ef1a9f349310",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4shwYI3POEGkw0Eg6kcyaQ": {
+      "id": "c4shwYI3POEGkw0Eg6kcyaQ",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/eaougker493o/4shwYI3POEGkw0Eg6kcyaQ/393bf21a61e26de70d443e6566872f36/felix-russell-saw-112140.jpg",
+        "details": {
+          "size": 4539181,
+          "image": {
+            "width": 2500,
+            "height": 1667
+          }
+        },
+        "fileName": "felix-russell-saw-112140.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Man in the fields",
+      "description": "Tattooed man walking in a field",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "797d98538fe1466ae4352602ba0d3fad",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c7orLdboQQowIUs22KAW4U": {
+      "id": "c7orLdboQQowIUs22KAW4U",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/eaougker493o/7orLdboQQowIUs22KAW4U/ea72d97bf367f714225d31a825d955ab/matt-palmer-254999.jpg",
+        "details": {
+          "size": 2293094,
+          "image": {
+            "width": 3000,
+            "height": 2000
+          }
+        },
+        "fileName": "matt-palmer-254999.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Sparkler",
+      "description": "John with Sparkler",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "f4918e4975ac951f17c9bd5a3221d267",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode >>> MarkdownRemark": {
+      "id": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
+      "internal": {
+        "content": "Research and recommendations for modern stack websites.",
+        "type": "MarkdownRemark",
+        "contentDigest": "3999fd1b226462be5b33216d5d40dce9",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
+        "parent": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Research and recommendations for modern stack websites."
+    },
+    "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
+      "internal": {
+        "content": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9a33d6c8ca460d4f9a3f706442936ff0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
+        "parent": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint."
+    },
+    "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode >>> MarkdownRemark": {
+      "id": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode",
+      "internal": {
+        "content": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+        "type": "MarkdownRemark",
+        "contentDigest": "f0499999ad55f38330b2db76f913cc4a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode",
+        "parent": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\")."
+    },
+    "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode >>> MarkdownRemark": {
+      "id": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
+      "internal": {
+        "content": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+        "type": "MarkdownRemark",
+        "contentDigest": "d05e6a5c4035fa5f5b81637afdabd356",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
+        "parent": "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API."
+    },
+    "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark": {
+      "id": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode",
+      "internal": {
+        "content": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+        "type": "MarkdownRemark",
+        "contentDigest": "c9f0f324da011281127edaf360027c75",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode",
+        "parent": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN."
+    },
+    "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode >>> MarkdownRemark": {
+      "id": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
+      "internal": {
+        "content": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+        "type": "MarkdownRemark",
+        "contentDigest": "71f80dbf6157f5b7e1bfe2d4301ce62c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
+        "parent": "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Worry less about security, caching, and talking to the server. Static sites are the new thing."
+    },
+    "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark": {
+      "id": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode",
+      "internal": {
+        "content": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\").",
+        "type": "MarkdownRemark",
+        "contentDigest": "7d09572876f6cb3a5647aea59a0fae0e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode",
+        "parent": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\")."
+    },
+    "SitePage /blog/automate-with-webhooks/": {
+      "layout": "index",
+      "jsonName": "blog-automate-with-webhooks.json",
+      "internalComponentName": "ComponentBlogAutomateWithWebhooks",
+      "path": "/blog/automate-with-webhooks/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "automate-with-webhooks"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "id": "SitePage /blog/automate-with-webhooks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "14b7dc8d118b99b94538b0f6674f89d8",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/hello-world/": {
+      "layout": "index",
+      "jsonName": "blog-hello-world.json",
+      "internalComponentName": "ComponentBlogHelloWorld",
+      "path": "/blog/hello-world/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "hello-world"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "id": "SitePage /blog/hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7e68763f7107f1044d246ed0a922a3ab",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/static-sites-are-great/": {
+      "layout": "index",
+      "jsonName": "blog-static-sites-are-great.json",
+      "internalComponentName": "ComponentBlogStaticSitesAreGreat",
+      "path": "/blog/static-sites-are-great/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "static-sites-are-great"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/templates/blog-post.js",
+      "id": "SitePage /blog/static-sites-are-great/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "954a0aaabc191de44bd78010472ac605",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "725f898787f50f9e6dbf469e435ea5fc",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Lee/Desktop/blog2.0.0/contentful-gatsby-blog/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "82947b65e3173369475da78ebcf200dc",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "eaougker493o-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYiwq9PwpYvAcOowqfCoUw-Y2vCtXFzcsO3VcKZwpXCuncvwpNqSBPCjCdwGMKzAMKKw7vDisKSIcKGw7s-w5dKZmEXw74vw6M2QRRJwoDCvAHCnsO_w5DCuVrCrcKR"
+      }
+    },
+    "PLUGINS_HASH": "c14cd9a5882b8f5e2dc5dee791dccca6"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "c4NzwDSDlGECGIiokKomsyI": [
+        "/blog/",
+        "/blog/static-sites-are-great/",
+        "/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode": [
+        "/blog/",
+        "/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode >>> MarkdownRemark": [
+        "/blog/",
+        "/"
+      ],
+      "c6Od9v3wzLOysiMum0Wkmme": [
+        "/blog/",
+        "/blog/hello-world/",
+        "/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode": [
+        "/blog/",
+        "/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode >>> MarkdownRemark": [
+        "/blog/",
+        "/"
+      ],
+      "c4shwYI3POEGkw0Eg6kcyaQ": [
+        "/blog/",
+        "/blog/automate-with-webhooks/",
+        "/"
+      ],
+      "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode": [
+        "/blog/",
+        "/"
+      ],
+      "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark": [
+        "/blog/",
+        "/"
+      ],
+      "c31TNnjHlfaGUoMOwU0M2og": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode >>> MarkdownRemark": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6Ke": [
+        "/blog/hello-world/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode": [
+        "/blog/hello-world/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark": [
+        "/blog/hello-world/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode": [
+        "/"
+      ],
+      "c7orLdboQQowIUs22KAW4U": [
+        "/"
+      ]
+    },
+    "connections": {
+      "ContentfulBlogPost": [
+        "/blog/",
+        "/"
+      ],
+      "ContentfulPerson": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
