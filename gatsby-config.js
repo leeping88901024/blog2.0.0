@@ -20,6 +20,11 @@ if (!spaceId || !accessToken) {
 }
 
 module.exports = {
+  siteMetadata: {
+    title: `Lee Ping`,
+    siteUrl: `http://www.macdull.top`,
+    description: `Blazing fast modern site generator for React`,
+  },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [
     'gatsby-transformer-remark',
