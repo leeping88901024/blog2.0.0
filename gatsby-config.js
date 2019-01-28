@@ -21,8 +21,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: `Lee Ping`,
-    siteUrl: `http://www.macdull.top`,
+    title: `Lee-Ping`,
+    siteUrl: `https://ping-blog.netlify.com/`,
     description: `Blazing fast modern site generator for React`,
   },
   pathPrefix: '/gatsby-contentful-starter',

@@ -3,14 +3,14 @@ import Link from 'gatsby-link'
 import styles from './navigation.module.css'
 
 export default () => (
-  <nav role="navigation">
-    <ul className={styles.navigation}>
-      <li className={styles.navigationItem}>
+  <header className={styles.navigation}>
+    <ul>
+      <li>
         <Link to="/">主页</Link>
       </li>
-      <li className={styles.navigationItem}>
+      <li>
         <Link to="/blog/">文章</Link>
       </li>
     </ul>
-  </nav>
+  </header>
 )

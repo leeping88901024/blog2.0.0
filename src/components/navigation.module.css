@@ -1,20 +1,40 @@
 .navigation {
-  display: flex;
+  background-color: #80aaee;
+  position: fixed;
+  z-index: 10;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.navigation ul {
+  text-align: center;
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 0;
-  height: 20vh;
+  margin: 0 auto;
   max-height: 100px;
   font-size: 1.25em;
 }
 
-.navigationItem {
-  display: inline-flex;
+.navigation li {
+  display: inline-block;;
   align-items: center;
   margin: 0 1em;
 }
 
-.navigationItem a {
+.navigation a {
   color: currentColor;
+}
+
+@media(min-width: 375px) {
+  .navigation {
+    width: 375px;
+  }
+}
+
+
+@media(min-width: 1000px) {
+  .navigation {
+    width: 1180px;
+  }
 }
