@@ -1,5 +1,5 @@
 .navigation {
-  background-color: #80aaee;
+  background-color: #ffffff;
   position: fixed;
   z-index: 10;
   margin: 0 auto;
@@ -26,9 +26,9 @@
   color: currentColor;
 }
 
-@media(min-width: 375px) {
+@media(min-width: 350px) {
   .navigation {
-    width: 375px;
+    width: 350px;
   }
 }
 
