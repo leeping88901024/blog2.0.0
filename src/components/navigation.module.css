@@ -26,14 +26,50 @@
   color: currentColor;
 }
 
-@media(min-width: 350px) {
+@media(min-width: 320px) {
   .navigation {
-    width: 350px;
+    width: 320px;
+  }
+}
+
+@media(min-width: 360px) {
+  .navigation {
+    width: 360px;
+  }
+}
+
+@media(min-width: 375px) {
+  .navigation {
+    width: 375px;
+  }
+}
+
+@media(min-width: 414px) {
+  .navigation {
+    width: 414px;
+  }
+}
+
+@media(min-width: 768px) {
+  .navigation {
+    width: 768px;
+  }
+}
+
+@media(min-width: 834px) {
+  .navigation {
+    width: 834px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .navigation {
+    width: 1024px;
   }
 }
 
 
-@media(min-width: 1000px) {
+@media(min-width: 1180px) {
   .navigation {
     width: 1180px;
   }
