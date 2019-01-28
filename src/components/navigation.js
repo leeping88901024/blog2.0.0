@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './navigation.module.css'
 
-var prevScrollpos = window.pageYOffset
+var prevScrollpos = 0
 
 export default class Navigation extends React.Component {
   constructor(props) {
