@@ -1,6 +1,6 @@
 .navigation {
-  background-color:#FFFFFF;
-  border-bottom: 3px solid #47A3DA;;
+  background-color:#4A8AF4;
+  border-bottom: 3px solid #4A8AF4;;
   position: fixed;
   z-index: 10;
   margin: 0 auto;
@@ -28,7 +28,7 @@
 }
 
 .navigation li:hover {
-  color: #47A3DA;
+  color: #FFFFFF;
 }
 
 @media(min-width: 320px) {
