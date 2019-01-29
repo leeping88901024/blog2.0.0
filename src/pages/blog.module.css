@@ -1,5 +1,5 @@
 .hero {
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   height: 61.8vh;
@@ -7,4 +7,5 @@
   background: #e1e1e1;
   font-size: 2em;
   overflow: hidden;
+  top: 40px;
 }

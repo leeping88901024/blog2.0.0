@@ -4,9 +4,8 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { Scene, PerspectiveCamera, WebGLRenderer, BoxGeometry, MeshBasicMaterial, Mesh } from 'three'
 import styles from './blog.module.css'
-import ArticlePreview from '../components/article-preview'
 
-class BlogIndex extends React.Component {
+class More extends React.Component {
   componentDidMount() {
     const width = this.mount.clientWidth
     const height = this.mount.clientHeight
@@ -77,7 +76,7 @@ class BlogIndex extends React.Component {
         <div className={styles.hero} ref={(mount) => {this.mount = mount}}>
         </div>
         <div className="wrapper">
-          <h2 className="section-headline">Three.js</h2>
+          <h2 className="section-headline">更多</h2>
           
         </div>
       </div>
@@ -85,14 +84,5 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default More
 
-export const pageQuery = graphql`
-  query BlogIndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

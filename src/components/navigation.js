@@ -36,10 +36,10 @@ export default class Navigation extends React.Component {
               <Link onClick={() => {console.log('hhhhh')}} to="/">主页</Link>
             </li>
             <li>
-              <Link to="/blog/">文章</Link>
+              <Link to="/blog/">Three.js</Link>
             </li>
             <li>
-              <Link to="/blog/">更多</Link>
+              <Link to="/more/">更多</Link>
             </li>
           </ul>
         </header>
