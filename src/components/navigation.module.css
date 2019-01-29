@@ -1,6 +1,6 @@
 .navigation {
   background-color:#FFFFFF;
-  border-bottom: 1px solid #6495ED;;
+  border-bottom: 1px solid #47A3DA;;
   position: fixed;
   z-index: 10;
   margin: 0 auto;
@@ -25,6 +25,10 @@
 
 .navigation a {
   color: currentColor;
+}
+
+.navigation li:hover {
+  color: #47A3DA;
 }
 
 @media(min-width: 320px) {
@@ -74,4 +78,11 @@
   .navigation {
     width: 1180px;
   }
+}
+
+/* ref: https://tympanus.net/Blueprints/HorizontalDropDownMenu/ */
+.menu {
+  display: none;
+  height: 40px;
+  background-color: #47A3DA;
 }

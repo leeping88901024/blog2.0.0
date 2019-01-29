@@ -29,16 +29,24 @@ export default class Navigation extends React.Component {
 
   render() {
     return(
-      <header className={styles.navigation} style={this.state.curr <= prevScrollpos ? {top: 0} : {top: -40} }>
-        <ul>
-          <li>
-            <Link to="/">主页</Link>
-          </li>
-          <li>
-            <Link to="/blog/">文章</Link>
-          </li>
-        </ul>
-      </header>
+      <div>
+        <header className={styles.navigation} style={this.state.curr <= prevScrollpos ? {top: 0} : {top: -40} }>
+          <ul>
+            <li>
+              <Link onClick={() => {console.log('hhhhh')}} to="/">主页</Link>
+            </li>
+            <li>
+              <Link to="/blog/">文章</Link>
+            </li>
+            <li>
+              <Link to="/blog/">更多</Link>
+            </li>
+          </ul>
+        </header>
+        <div className={styles.menu}>
+
+        </div>
+      </div>
     )
   }
 }

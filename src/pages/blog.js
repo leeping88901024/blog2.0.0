@@ -34,6 +34,8 @@ class BlogIndex extends React.Component {
     const material = new MeshBasicMaterial({color: '#433F81'})
     this.cube = new Mesh(geometry, material)
     this.scene.add(this.cube)
+    
+    // render
     this.start()
   }
 
@@ -53,9 +55,11 @@ class BlogIndex extends React.Component {
   }
 
   animate = () => {
+    // animation
     this.cube.rotation.x += 0.01
     this.cube.rotation.y += 0.01
 
+    // loop
     this.renderScence()
     this.frameId = window.requestAnimationFrame(this.animate)
   }
