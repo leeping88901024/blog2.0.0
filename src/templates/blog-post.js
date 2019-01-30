@@ -2,11 +2,17 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Img from 'gatsby-image'
+import mediumZoom from 'medium-zoom'
 
 import heroStyles from '../components/hero.module.css'
 import contentStyle from './blog-post.module.css'
 
 class BlogPostTemplate extends React.Component {
+
+  componentDidMount() {
+    mediumZoom(document.querySelector('#medium-style'))
+  }
+
   render() {
     const post = get(this.props, 'data.contentfulBlogPost')
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
