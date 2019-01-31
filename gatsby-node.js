@@ -1,5 +1,6 @@
 const Promise = require('bluebird')
 const path = require('path')
+const mediumZoom = require('medium-zoom')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
