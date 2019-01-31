@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Img from 'gatsby-image'
 
+// check if window is defined
 if (typeof window !== `undefined`) {
   const mediumZoom = require('medium-zoom')
 }
@@ -40,6 +41,7 @@ class BlogPostTemplate extends React.Component {
               __html: post.body.childMarkdownRemark.html,
             }}
           />
+          <img id='medium-style' src='https://images.ctfassets.net/e405u200r3be/3n2N9snQggKAEocbYFS4oC/2dc528b2c957136c7e5827a96ac269ee/______1.0.0-______1.png' />
         </div>
       </div>
     )
