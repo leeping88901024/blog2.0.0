@@ -12,7 +12,6 @@
 /* table style */
 .style table {
   border: 1px solid #ccc;
-  width: 70%;
   margin:0;
   padding:0;
   border-collapse: collapse;
@@ -30,6 +29,55 @@
   border-style: solid;
   border-color: #666666;
   background-color: #ffffff;
+}
+
+@media(min-width: 320px) {
+  .style table {
+    width: 100%;
+  }
+}
+
+@media(min-width: 360px) {
+  .style table {
+    width: 100%;
+  }
+}
+
+@media(min-width: 375px) {
+  .style table {
+    width: 100%;
+  }
+}
+
+@media(min-width: 414px) {
+  .style table {
+    width: 100%;
+  }
+}
+
+@media(min-width: 768px) {
+  .style table {
+    width: 100%;
+  }
+}
+
+@media(min-width: 834px) {
+  .style table {
+    width: 70%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .style table {
+    width: 70%;
+  }
+}
+
+
+@media(min-width: 1180px) {
+  .style table {
+    width: 70%;
+  }
 }
 
 /* image style */
