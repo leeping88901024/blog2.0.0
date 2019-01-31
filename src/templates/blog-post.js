@@ -9,7 +9,7 @@ import contentStyle from './blog-post.module.css'
 class BlogPostTemplate extends React.Component {
 
   componentDidMount() {
-    mediumZoom(document.querySelector('#medium-style'))
+    mediumZoom(document.querySelectorAll('#medium-style'))
   }
 
   render() {
@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
           >
             {post.publishDate}
           </p>
-          <div className={contentStyle.gridtable}
+          <div className={contentStyle.style}
             dangerouslySetInnerHTML={{
               __html: post.body.childMarkdownRemark.html,
             }}
