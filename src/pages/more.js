@@ -55,8 +55,8 @@ class More extends React.Component {
 
   animate = () => {
     // animation
-    this.cube.rotation.x += 0.01
-    this.cube.rotation.y += 0.01
+    this.cube.rotation.x += 0.1
+    this.cube.rotation.y += 0.1
 
     // loop
     this.renderScence()
@@ -77,7 +77,9 @@ class More extends React.Component {
         </div>
         <div className="wrapper">
           <h2 className="section-headline">更多</h2>
-          
+          <div className='article-list'>
+            没有更多的了
+          </div>
         </div>
       </div>
     )

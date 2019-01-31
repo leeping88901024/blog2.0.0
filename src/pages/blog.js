@@ -78,7 +78,9 @@ class BlogIndex extends React.Component {
         </div>
         <div className="wrapper">
           <h2 className="section-headline">Three.js</h2>
-          
+          <div className='article-list'>
+            以后我想在这儿放好玩的游戏
+          </div>
         </div>
       </div>
     )
