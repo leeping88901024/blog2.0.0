@@ -21,7 +21,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: `LeeP`,
+    title: `LeePing`,
     siteUrl: `https://ping-blog.netlify.com/`,
     description: `Blazing fast modern site generator for React`,
   },
