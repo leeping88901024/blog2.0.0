@@ -3,12 +3,6 @@ import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Img from 'gatsby-image'
 
-
-// check if window is defined
-if (typeof window !== `undefined`) {
-  const mediumZoom = require('medium-zoom')
-}
-
 import heroStyles from '../components/hero.module.css'
 import contentStyle from './blog-post.module.css'
 
