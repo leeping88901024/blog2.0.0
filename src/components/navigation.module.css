@@ -1,25 +1,22 @@
 .navigation {
-  background-color:#4A8AF4;
-  border-bottom: 3px solid #4A8AF4;
+  background-color:#FFFFFF;
   position: fixed;
-  z-index: 10;
+  z-index: 1;
   margin: 0 auto;
   height: 40px;
+  width: 100%;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.08);
 }
 
 .navigation ul {
   text-align: center;
-  justify-content: center;
-  list-style: none;
   padding: 0;
-  margin: 0 auto;
-  max-height: 100px;
-  font-size: 1.25em;
+  font-size: larger;
+  margin: 0;
 }
 
 .navigation li {
-  display: inline-block;;
-  align-items: center;
+  display: inline-block;
   margin: 0 1em;
 }
 
@@ -28,61 +25,5 @@
 }
 
 .navigation li:hover {
-  color: #FFFFFF;
-}
-
-@media(min-width: 320px) {
-  .navigation {
-    width: 320px;
-  }
-}
-
-@media(min-width: 360px) {
-  .navigation {
-    width: 360px;
-  }
-}
-
-@media(min-width: 375px) {
-  .navigation {
-    width: 375px;
-  }
-}
-
-@media(min-width: 414px) {
-  .navigation {
-    width: 414px;
-  }
-}
-
-@media(min-width: 768px) {
-  .navigation {
-    width: 768px;
-  }
-}
-
-@media(min-width: 834px) {
-  .navigation {
-    width: 834px;
-  }
-}
-
-@media(min-width: 1024px) {
-  .navigation {
-    width: 1024px;
-  }
-}
-
-
-@media(min-width: 1180px) {
-  .navigation {
-    width: 1180px;
-  }
-}
-
-/* ref: https://tympanus.net/Blueprints/HorizontalDropDownMenu/ */
-.menu {
-  display: none;
-  height: 40px;
-  background-color: #47A3DA;
+  color: #1E90FF;
 }

@@ -30,7 +30,7 @@ export default class Navigation extends React.Component {
   render() {
     return(
       <div>
-        <header className={styles.navigation} style={this.state.curr <= prevScrollpos ? {top: 0} : {top: -40} }>
+        <div className={styles.navigation} style={this.state.curr <= prevScrollpos ? {top: 0} : {top: -45} }>
           <ul>
             <li>
               <Link onClick={() => {console.log('hhhhh')}} to="/">主页</Link>
@@ -42,9 +42,6 @@ export default class Navigation extends React.Component {
               <Link to="/more/">更多</Link>
             </li>
           </ul>
-        </header>
-        <div className={styles.menu}>
-
         </div>
       </div>
     )

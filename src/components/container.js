@@ -1,5 +1,6 @@
 import React from 'react'
+import styles from './container.nodule.css'
 
 export default ({ children }) => (
-  <div style={{ maxWidth: 1180, margin: '0 auto' }}>{children}</div>
+  <div className='mycontainer'>{children}</div>
 )
